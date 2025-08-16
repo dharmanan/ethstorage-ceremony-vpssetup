@@ -157,17 +157,17 @@ phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony
 
 # SSS
 
-**S: Screen yerine tmux kullanabilir miyim?**
+**S: Screen yerine tmux kullanabilir miyim?**   
 C: Evet. `tmux new -s ceremony` ile oturum aç, ayrılmak için `Ctrl+B, D`.
 
-**S: Repo/klasör silersem GitHub yetkim gider mi?**
+**S: Repo/klasör silersem GitHub yetkim gider mi?**   
 C: Hayır. `phase2cli logout` yapmadıkça token durur, en kötü yeniden `auth` istenir.
 
-**S: Komutu nerede çalıştırmalıyım?**
+**S: Komutu nerede çalıştırmalıyım?**   
 C: `~/trusted-setup-tmp` gibi izole bir klasörde.
 
-**S: Katkı sırasında sıra takıldı, ilerlemiyor. Ne yapmalıyım?**
+**S: Katkı sırasında sıra takıldı, ilerlemiyor. Ne yapmalıyım?**   
 C: Takılırsa → Ctrl + C ile durdur → tekrar şu komutu çalıştır:
-`phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony`
+`phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony`   
 
 **⏳ Kuyrukta uzun süre ilerleme olmaması → normal olabilir, sabır gerekebilir.**
